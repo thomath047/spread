@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "target": "es6",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "lib": [
+      "dom",
+      "esnext.intl",
+      "es2015.promise",
+      "es2019"
+    ],
+    "moduleResolution": "node",
+    "baseUrl": "./"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
