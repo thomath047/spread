@@ -6,13 +6,13 @@ export default function Header() {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                 <li className="nav-item">
                     <NavLink to="/sets"
-                        className="px-3 py-2 flex pointer items-center text-xs uppercase font-bold leading-snug text-purple hover:opacity-75"
+                        className="px-3 py-2 flex pointer items-center text-xs uppercase font-bold leading-snug text-black-700 hover:opacity-75"
                     >  Sets
                     </NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/favorites"
-                        className="px-3 py-2 flex pointer items-center text-xs uppercase font-bold leading-snug text-purple hover:opacity-75"
+                        className="px-3 py-2 flex pointer items-center text-xs uppercase font-bold leading-snug text-black-700 hover:opacity-75"
                     > Favorites
                     </NavLink>
                 </li>
